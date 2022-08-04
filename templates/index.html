@@ -16,19 +16,19 @@
       <span>Dashboard</span>
     </a>
   </li>
-  <li class="nav-item">
+  <li class="nav-item upload-file">
     <a class="nav-link" href="{{ url_for('upload') }}">
       <i class="fa-solid fa-cloud-arrow-up"></i>
       <span>Upload Files</span>
     </a>
   </li>
-  <li class="nav-item">
+  <li class="nav-item history">
     <a class="nav-link" href="{{ url_for('history') }}">
       <i class="fa-solid fa-clipboard-list"></i>
       <span>Patient History</span>
     </a>
   </li>
-  <li class="nav-item">
+  <li class="nav-item setting">
     <a class="nav-link" href="{{ url_for('setting') }}">
       <i class="fa-solid fa-gear"></i>
       <span>Settings</span>
@@ -37,7 +37,7 @@
   <!-- Divider -->
   <hr class="sidebar-divider my-0">
   <div>
-    <li class="nav-item">
+    <li class="nav-item logout">
       <a class="nav-link" href="{{ url_for('logout') }}">
         <i class="fa-solid fa-right-from-bracket"></i>
         <span>Logout</span>
